@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello world</title>
-</head>
-<body>
-    <h1>main table</h1>
-</body>
-</html>
+{% extends 'main/mainpattern.html' %}
+
+{% block title %}
+Hello
+{% endblock %}
+
+{% block content %}
+<button class="button_help">
+    <a href="http://127.0.0.1:8000/help"><i class="fa-solid fa-question"></i></a>
+</button>
+{% endblock %}
