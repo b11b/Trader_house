@@ -1,11 +1,99 @@
-body {
-    background: grey;
+* {
+    box-sizing: border-box;
 }
-.button_help {
+
+body, html {
+    background: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.button_help_div {
+    background-color: whitesmoke;
     position: absolute;
     top: 10px;
-    left: 1860px;
+    right: 10px;
     border: none;
-    width: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+.button_help:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+.center_question {
+    color: #a88787;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;           
+    color: inherit;
+    text-decoration: none;
+}
+
+.center_for_strings{
+    color: #a88787;
+    display: flex;
+    text-anchor: start;              
+    color: inherit;
+    text-decoration: none;
+    position: absolute;
+    top: 11px;
+    left: 10px;
+    font-size: 24px;
+}
+
+.main_border_window {
+    border: 20px solid rgb(151, 147, 147);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.top_pannel {
+    width: 100%;
     height: 50px;
+    background-color: rgb(129, 129, 129);
+    position: absolute;
+}
+
+.main_pannel_container {
+    display: flex;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    width: 100%;
+}
+
+.left_pannel {
+    background-color: black;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    width: 48%;    
+}
+
+.middle_pannel {
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 48%;
+    width: 76px;
+    bottom: 0; 
+}
+
+.right_pannel {
+    background-color: green;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    right: 0;
+    width: 48%;
 }

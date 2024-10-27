@@ -5,7 +5,58 @@ Hello
 {% endblock %}
 
 {% block content %}
-<button class="button_help">
-    <a href="http://127.0.0.1:8000/help"><i class="fa-solid fa-question"></i></a>
-</button>
+<!-- главная площадь -->
+<div class="main_border_window">
+    <!-- панель сверху -->
+    <div class="top_pannel">
+        <span class="center_for_strings">Добро пожаловать</span>
+        <div class="button_help_div button_help">
+            <a class="center_question" href="http://127.0.0.1:8000/help">
+                <i class="fa-solid fa-question"></i>
+            </a>
+        </div>
+
+    </div>
+    <!-- Главный контейнер для панелей     -->
+    <div class="main_pannel_container">
+        <div class="left_pannel">
+            <!-- Инпут зона -->
+            <div></div>
+            <!-- Главная зона -->
+            <div></div>
+            <!-- Поискавая зона -->
+            <div></div>
+            <!-- Набор с элементами -->
+            <div></div>            
+        </div>
+    </div>
+    <!-- Середина с кнопкой -->
+    <div class="middle_pannel"></div>
+    <!-- Правая рабочая зона -->
+    <div class="right_pannel">
+        <!-- Верхняя половина -->
+        <div>
+            <!-- Инпут зона -->
+            <div></div>
+            <!-- Зона для окон -->
+            <div>
+                <!-- ингр зона -->
+                <div></div>
+                <!-- рес прок зона -->
+                <div></div>
+                <!-- Доп ингр зона -->
+                <div></div>
+                <!-- Саммари -->
+                <div></div>
+            </div>
+        </div>
+        <!-- Нижняя для пресетов -->
+        <div></div>
+    </div>
+</div>
+
+<!-- <div class="button_help">
+    <a class="center" href="http://127.0.0.1:8000/help"><i class="fa-solid fa-question"></i></a>
+</div> -->
+
 {% endblock %}
