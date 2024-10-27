@@ -1,7 +1,12 @@
 {% extends 'main/mainpattern.html' %}
+{% load static %}
 
 {% block title %}
 Hello
+{% endblock %}
+
+{% block csslinks %}
+<link rel="stylesheet" href="{% static 'main/css/top_pannel_elements.css' %}">
 {% endblock %}
 
 {% block content %}
