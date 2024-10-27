@@ -12,9 +12,6 @@ body, html {
 }
 .button_help_div {
     background-color: whitesmoke;
-    position: absolute;
-    top: 10px;
-    right: 10px;
     border: none;
     width: 30px;
     height: 30px;
@@ -36,15 +33,11 @@ body, html {
 }
 
 .center_for_strings{
-    color: #a88787;
-    display: flex;
+    color: #a88787;    
     text-anchor: start;              
     color: inherit;
     text-decoration: none;
-    position: absolute;
-    top: 11px;
-    left: 10px;
-    font-size: 24px;
+    font-size: 24px;    
 }
 
 .main_border_window {
@@ -52,48 +45,40 @@ body, html {
     width: 100%;
     height: 100%;
     margin: 0;
-    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .top_pannel {
+    display: flex;
     width: 100%;
     height: 50px;
     background-color: rgb(129, 129, 129);
-    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 
 .main_pannel_container {
     display: flex;
-    position: absolute;
-    top: 50px;
-    bottom: 0;
-    width: 100%;
+    flex: 1;
 }
 
 .left_pannel {
     background-color: black;
-    display: flex;
-    position: absolute;
-    top: 50px;
-    bottom: 0;
-    width: 48%;    
+    flex: 1;
+    min-width: 48%;
 }
 
 .middle_pannel {
     background-color: red;
-    position: absolute;
-    top: 50px;
-    left: 48%;
     width: 76px;
-    bottom: 0; 
 }
 
-.right_pannel {
+.right_pannel_container {
     background-color: green;
-    display: flex;
-    position: absolute;
-    top: 50px;
-    bottom: 0;
-    right: 0;
-    width: 48%;
+    flex: 1;
+    min-width: 48%;
 }
