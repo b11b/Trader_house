@@ -11,36 +11,6 @@ body, html {
     height: 100%;
 }
 
-.button_help_div {
-    background-color: whitesmoke;
-    border: none;
-    width: 30px;
-    height: 30px;
-}
-
-.button_help:hover {
-    background-color: rgb(212, 212, 212);
-}
-
-.center_question {
-    color: #a88787;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;           
-    color: inherit;
-    text-decoration: none;
-}
-
-.center_for_strings{
-    color: #a88787;    
-    text-anchor: start;              
-    color: inherit;
-    text-decoration: none;
-    font-size: 24px;    
-}
-
 .main_border_window {
     border: 20px solid rgb(151, 147, 147);
     width: 100%;
@@ -62,7 +32,7 @@ body, html {
     box-sizing: border-box;
 }
 
-.main_pannel_container {
+.left_pannel_container {
     display: flex;
     flex: 1;
 }
