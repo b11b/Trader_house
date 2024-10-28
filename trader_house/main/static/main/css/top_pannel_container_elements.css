@@ -20,7 +20,7 @@
     text-decoration: none;
 }
 /* Выравнивание текста */
-.center_for_strings{
+.center_for_strings {
     color: #a88787;    
     text-anchor: start;              
     color: inherit;

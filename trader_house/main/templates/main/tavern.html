@@ -6,14 +6,16 @@ Hello
 {% endblock %}
 
 {% block csslinks %}
-<link rel="stylesheet" href="{% static 'main/css/top_pannel_elements.css' %}">
+
+<link rel="stylesheet" href="{% static 'main/css/top_pannel_container_elements.css' %}">
+<link rel="stylesheet" href="{% static 'main/css/left_pannel.css' %}">
 {% endblock %}
 
 {% block content %}
 <!-- главная площадь -->
 <div class="main_border_window">
     <!-- панель сверху -->
-    <div class="top_pannel">
+    <div class="top_pannel_container">
         <span class="center_for_strings">Добро пожаловать</span>
         <div class="button_help_div button_help">
             <a class="center_question" href="http://127.0.0.1:8000/help">
@@ -23,8 +25,8 @@ Hello
 
     </div>
     <!-- Главный контейнер для панелей     -->
-    <div class="left_pannel_container">
-        <div class="left_pannel">
+    <div class="bottom_pannel_container">
+        <div class="left_pannel_container">
             <!-- Инпут зона -->
             <div></div>
             <!-- Главная зона -->
@@ -35,7 +37,7 @@ Hello
             <div></div>            
         </div>
         <!-- Середина с кнопкой -->
-        <div class="middle_pannel"></div>
+        <div class="middle_pannel_container"></div>
         <!-- Правая рабочая зона -->
         <div class="right_pannel_container">
             <!-- Верхняя половина -->
