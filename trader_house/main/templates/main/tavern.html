@@ -9,6 +9,7 @@ Hello
 
 <link rel="stylesheet" href="{% static 'main/css/top_pannel_container_elements.css' %}">
 <link rel="stylesheet" href="{% static 'main/css/left_pannel.css' %}">
+<link rel="stylesheet" href="{% static 'main/css/right_pannel.css' %}">
 {% endblock %}
 
 {% block content %}
@@ -28,36 +29,54 @@ Hello
     <div class="bottom_pannel_container">
         <div class="left_pannel_container">
             <!-- Инпут зона -->
-            <div></div>
-            <!-- Главная зона -->
-            <div></div>
+            <div class="div_input_container">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Price">
+                <button type="submit">Create new</button>      
+            </div>
             <!-- Поискавая зона -->
-            <div></div>
+            <div class="div_search">
+                <input type="text" placeholder="Search">
+
+            </div>
             <!-- Набор с элементами -->
-            <div></div>            
+            <div class="div_table_zone_container">
+                <ul>
+                    <li>
+                        <input type="checkbox">
+                        <input type="text">
+                        <input type="text">
+                    </li>
+                </ul>
+            
+            </div>            
         </div>
         <!-- Середина с кнопкой -->
-        <div class="middle_pannel_container"></div>
+        <div class="middle_pannel_container">
+            <button type="submit">Move</button>
+        </div>
         <!-- Правая рабочая зона -->
         <div class="right_pannel_container">
-            <!-- Верхняя половина -->
-            <div>
-                <!-- Инпут зона -->
+            <!-- Инпут зона -->
+            <div class="right_input_top_pannel">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Price">
+                <button type="submit">Save</button>
+                <button type="submit">Reset</button>
+            </div>
+            <!-- Зона для окон -->
+            <div class="right_middle_pannel">
+                <!-- ингр зона -->
                 <div></div>
-                <!-- Зона для окон -->
-                <div>
-                    <!-- ингр зона -->
-                    <div></div>
-                    <!-- рес прок зона -->
-                    <div></div>
-                    <!-- Доп ингр зона -->
-                    <div></div>
-                    <!-- Саммари -->
-                    <div></div>
-                </div>
-            </div>        
-            <!-- Нижняя для пресетов -->
-            <div></div>        
+                <!-- рес прок зона -->
+                <div></div>
+                <!-- Доп ингр зона -->
+                <div></div>
+                <!-- Саммари -->
+                <div></div>
+            </div>  
+            <!-- Нижняя половина-->
+            <div class="right_bottom_pannel"></div>
         </div>
     </div>
 </div>

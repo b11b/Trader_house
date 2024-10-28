@@ -1,0 +1,41 @@
+.div_input_container {
+    background-color: var(--left-pannel-color);
+    flex: 0 0 auto;
+    min-height: var(--input-pannel-size);
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 15px;
+    gap: 30px;
+}
+
+.div_input_container > input {
+    height: 40px;
+    width: 300px;
+      
+}
+
+.div_input_container > button {
+    margin-left: auto;
+    height: 50px;
+    width: 100px;
+}
+
+.div_search {
+    background-color: var(--pannel-color);
+    flex: 0 0 auto;
+    min-height: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.div_table_zone_container {
+    background-color: var(--pannel-color);
+    flex-grow: 1;
+    min-height: 0;
+}
+
+li {
+    list-style-type: none;
+}

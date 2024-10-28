@@ -1,0 +1,35 @@
+.right_input_top_pannel {
+    background-color: red;
+    flex: 0 0 auto;
+    min-height: var(--input-pannel-size);
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    gap: 10px;
+}
+
+.right_input_top_pannel > input {
+    height: 40px;
+    max-width: 300px;
+    margin-right: -550px;
+}
+
+.right_bottom_pannel > button {
+    height: 50px;
+    width: 100px;
+}
+
+.right_middle_pannel {
+    background-color: green;
+    flex: 0 0 auto;
+    min-height: 5%;
+}
+
+.right_bottom_pannel {
+    background-color: black;
+    flex-grow: 1;
+    min-height: 0;
+}
