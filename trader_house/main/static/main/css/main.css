@@ -3,7 +3,7 @@
 }
 
 body, html {
-    background: rgb(255, 255, 255);
+    background: rgb(151, 147, 147);
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -12,7 +12,7 @@ body, html {
 }
 
 .main_border_window {
-    border: 20px solid rgb(151, 147, 147);
+    border: 20px solid rgb(156, 152, 152);
     width: 100%;
     height: 100vh;
     margin: 0;
@@ -30,6 +30,7 @@ body, html {
     align-items: center;
     padding: 0 15px;
     box-sizing: border-box;
+    border-radius: 10px 10px 0 0;
 }
 
 .bottom_pannel_container {
@@ -40,7 +41,7 @@ body, html {
 }
 
 .left_pannel_container {
-    background-color: black;
+    background-color: rgba(216, 216, 216, 0.884);
     flex: 1;
     min-width: 48%;
     box-sizing: border-box;
@@ -48,13 +49,13 @@ body, html {
 
 .middle_pannel_container {
     display: flex;
-    background-color: red;
+    background-color: rgba(145, 145, 145, 0.884);
     width: 76px;
     box-sizing: border-box;
 }
 
 .right_pannel_container {
-    background-color: green;
+    background-color: rgba(190, 190, 190, 0.884);
     flex: 1;
     min-width: 48%;
     box-sizing: border-box;
