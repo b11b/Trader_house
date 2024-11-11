@@ -1,0 +1,38 @@
+{% extends 'main/mainpattern.html' %}
+{% load static %}
+
+{% block title %}
+login
+{% endblock %}
+
+{% block csslinks %}
+
+<link rel="stylesheet" href="{% static 'main/css/top_pannel_container_elements.css' %}">
+<link rel="stylesheet" href="{% static 'main/css/login.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="main_border_window">
+    <div class="top_pannel_container">
+        <span class="center_for_strings">Добро пожаловать</span>
+        <div class="button_help_div button_help">
+            <a class="center_question" href="http://127.0.0.1:8000/help">
+                <i class="fa-solid fa-question"></i>
+            </a>
+        </div>
+
+    </div>
+    <div class="bottom_pannel_container">
+        <div class="registr">
+            <input type="text" value="">
+            <button type="submit" onclick="window.location.href='http://127.0.0.1:8000/tavern';">Go!</button>
+
+        </div>
+        
+        <div class="login">
+            <input>
+            <button type="submit">Go!</button>                    
+        </div>
+    </div>
+</div>
+{% endblock %}

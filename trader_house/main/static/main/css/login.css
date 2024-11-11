@@ -1,0 +1,25 @@
+.bottom_pannel_container {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.registr {
+    background-color: green;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 10%;
+}
+
+.login {
+    background-color: red;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 10%;
+}
