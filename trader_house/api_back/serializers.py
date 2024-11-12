@@ -8,7 +8,7 @@ class UserSerializer(serializers.ModelSerializer):
         if not value.strip():
             raise ValidationError("Bad name. Not more than 5 symbols and without spaces")
         
-        if len(value) > 5:
+        if len(value) > 8:
             raise ValidationError("Bad name. Not more than 5 symbols and without spaces.")
 
         if ' ' in value:

@@ -12,6 +12,7 @@ login
 {% endblock %}
 
 {% block content %}
+
 <div class="main_border_window">
     <div class="top_pannel_container">
         <span class="center_for_strings">Добро пожаловать</span>
@@ -24,8 +25,8 @@ login
     </div>
     <div class="bottom_pannel_container">
         <div class="registr">
-            <input type="text" value="">
-            <button type="submit" onclick="window.location.href='http://127.0.0.1:8000/tavern';">Go!</button>
+            <input id="LogName" type="text" value="">
+            <button type="submit" onclick="sendData()">Go!</button>
 
         </div>
         
@@ -35,4 +36,6 @@ login
         </div>
     </div>
 </div>
+
+<script src="{% static 'main/js/login.js' %}"></script>
 {% endblock %}
